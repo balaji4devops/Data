@@ -1,0 +1,4 @@
+[flyway]
+locations = ["filesystem:sql"]
+schemas = ["dbo"]
+validateOnMigrate = true
