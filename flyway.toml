@@ -2,3 +2,23 @@
 locations = ["filesystem:sql"]
 validateOnMigrate = true
 
+[environments.dev]
+url = "jdbc:sqlserver://databaseserversql-2.database.windows.net:1433;databaseName=Dev;encrypt=true;trustServerCertificate=true"
+user = "flyway"
+password = "Root@123"
+
+
+[environments.qa]
+url = "jdbc:sqlserver://databaseserversql-2.database.windows.net:1433;databaseName=QA;encrypt=true;trustServerCertificate=true"
+user = "flyway"
+password = "Root@123"
+
+[environments.uat]
+url = "jdbc:sqlserver://databaseserversql-2.database.windows.net:1433;databaseName=UAT;encrypt=true;trustServerCertificate=true"
+user = "flyway"
+password = "Root@123"
+
+[environments.prod]
+url = "jdbc:sqlserver://databaseserversql-2.database.windows.net:1433;databaseName=Prod;encrypt=true;trustServerCertificate=true"
+user = "flyway"
+password = "Root@123"

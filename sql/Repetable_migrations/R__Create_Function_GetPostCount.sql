@@ -1,4 +1,4 @@
-CREATE OR ALTER FUNCTION dbo.get_post_count()
+ALTER FUNCTION dbo.get_post_count()
 RETURNS INT
 AS
 BEGIN
