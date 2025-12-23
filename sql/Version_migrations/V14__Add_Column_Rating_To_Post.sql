@@ -1,0 +1,3 @@
+ALTER TABLE dbo.Posts
+ADD Rating DECIMAL(3,2) NOT NULL
+    CONSTRAINT DF_Posts_Rating DEFAULT (0.0);

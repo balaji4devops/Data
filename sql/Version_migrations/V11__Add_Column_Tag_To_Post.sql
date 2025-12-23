@@ -1,0 +1,2 @@
+ALTER TABLE dbo.Posts
+ADD Tag NVARCHAR(50) NULL;
