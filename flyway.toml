@@ -22,3 +22,8 @@ password = "Root@123"
 url = "jdbc:sqlserver://databaseserversql-2.database.windows.net:1433;databaseName=Prod;encrypt=true;trustServerCertificate=true"
 user = "flyway"
 password = "Root@123"
+
+[environments.sit]
+url = "jdbc:sqlserver://databaseserversql-2.database.windows.net:1433;databaseName=Sit;encrypt=true;trustServerCertificate=true"
+user = "flyway"
+password = "Root@123"
